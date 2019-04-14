@@ -35,7 +35,23 @@ public class ProblemService {
 	@Autowired
 	private IdWorker idWorker;
 
-/**
+	public Page<Problem> newlist(String labelid, int page, int size){
+		PageRequest pageRequest =  PageRequest.of(page-1, size);
+		return problemDao.newlist(labelid, pageRequest);
+	};
+
+	public Page<Problem> hotlist(String labelid, int page, int size){
+		PageRequest pageRequest =  PageRequest.of(page-1, size);
+		return problemDao.hotlist(labelid, pageRequest);
+	};
+
+	public Page<Problem> waitlist(String labelid, int page, int size){
+		PageRequest pageRequest =  PageRequest.of(page-1, size);
+		return problemDao.waitlist(labelid, pageRequest);
+	};
+
+
+	/**
 	 * 查询全部列表
 	 * @return
 	 */
