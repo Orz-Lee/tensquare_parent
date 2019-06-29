@@ -19,4 +19,5 @@ public class BaseExceptionHandler {
         System.out.println( "出错信息："+ e.getMessage());
         return new Result(false, 1001, "执行出错");
     }
+
 }

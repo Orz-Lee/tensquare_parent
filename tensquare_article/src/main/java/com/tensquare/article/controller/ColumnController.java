@@ -24,8 +24,7 @@ public class ColumnController {
 
 	@Autowired
 	private ColumnService columnService;
-	
-	
+
 	/**
 	 * 查询全部数据
 	 * @return

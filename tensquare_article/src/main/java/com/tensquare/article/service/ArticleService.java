@@ -47,7 +47,7 @@ public class ArticleService {
 		articleDao.addThumbup(id);
 	}
 
-/**
+	/**
 	 * 查询全部列表
 	 * @return
 	 */

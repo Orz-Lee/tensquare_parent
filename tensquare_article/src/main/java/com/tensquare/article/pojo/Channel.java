@@ -17,12 +17,9 @@ public class Channel implements Serializable{
 	@Id
 	private String id;//ID
 
-
-	
 	private String name;//频道名称
 	private String state;//状态
 
-	
 	public String getId() {		
 		return id;
 	}
@@ -44,6 +41,4 @@ public class Channel implements Serializable{
 		this.state = state;
 	}
 
-
-	
 }

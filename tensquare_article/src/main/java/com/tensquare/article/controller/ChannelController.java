@@ -25,7 +25,6 @@ public class ChannelController {
 	@Autowired
 	private ChannelService channelService;
 	
-	
 	/**
 	 * 查询全部数据
 	 * @return

@@ -35,7 +35,7 @@ public class ChannelService {
 	@Autowired
 	private IdWorker idWorker;
 
-/**
+	/**
 	 * 查询全部列表
 	 * @return
 	 */
